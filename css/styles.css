@@ -7,7 +7,36 @@ body{
   background-color: rgb(9, 124, 124);
 }
 
+@keyframes example {
+  from{background-color: bisque;}
+  to{background-color:  blueviolet;}
+  
+}
+.long{
+  text-align: center;
+  background-color: blueviolet;
+  color: white;
+  border-style: solid;
+  border-color: aqua;
+  animation-name: example;
+  animation-duration: 4s;
+
+}
+
 .Song{
   
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.project{
+border: 1cm;
+border-style: solid double;
+
+}
+
+#borderimg1{
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(editor.jpg) 30 round;
+  
 }
